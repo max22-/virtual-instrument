@@ -1,7 +1,7 @@
 all: virtual-instrument
 
 virtual-instrument: main.cpp
-	g++ main.cpp -o virtual-instrument
+	g++ main.cpp -o virtual-instrument -llo
 
 .PHONY: run clean
 
